@@ -83,9 +83,9 @@ export const PaymentsContainer = async ({
 
         <td className="">
           <div className="flex items-center">
-            <ViewAction
-              href={`/record/appointments/${item?.appointment_id}?cat=bills`}
-            />
+          <ViewAction
+  href={`/record/appointments/${item?.appointment_id}?cat=billing`}
+/>
             {isAdmin && (
               <ActionDialog
                 type="delete"
